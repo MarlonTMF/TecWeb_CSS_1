@@ -9,6 +9,7 @@ div{
     background-color:hsl(60,);
 }*/
 
+/*
 .caja1{
     width: 150px;
     height: 150px;
@@ -22,6 +23,41 @@ div{
 .caja3{
     width: 150px;
     height: 150px;
-    background-color: hsl( 16, 32, 10);
+    background-color: hsl(132, 50%, 47%);
 }
+*/
+
+
+*{
+    color:gray;
+}
+
+/*
+div{
+    color: green;
+}
+*/
+
+
+.caja1 {
+    color: red;
+}
+
+#foo{
+    color: orange;
+}
+
+a[title]{
+    color: green;
+}
+
+button:hover{
+    background-color: green;
+}
+
+input:disabled{
+    border:2px solid orange;
+}
+
+
 
