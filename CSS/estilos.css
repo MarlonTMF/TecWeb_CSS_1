@@ -71,6 +71,54 @@ input:disabled{
     border:2px solid orange;
 }
 
-/**/
+/*PARTE 2....CLASE CONSECUENTE*/
+
+p::first-letter{
+    color:red
+}
+
+/*
+.foo, .bar{
+    color:green
+}
+
+.abuelo div{
+    color:red;
+}
+*/
+
+
+/*
+.abuelo>div{
+    color:orange
+}
+
+.hijo1{
+    color:yellow
+}
+
+*/
+
+/*el inferior es para los hermanos div del hijo 1*/
+.hijo1~div{
+    color:blueviolet
+}
+
+.foo{
+    color:green
+}
+#bar{
+    color:#842522
+}
+
+#outler #inner a{
+    background-color: blue;
+}
+
+#outler a{
+    background-color: red;
+}
+
+
 
 
